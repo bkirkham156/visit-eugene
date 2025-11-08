@@ -1,0 +1,11 @@
+id,name,category,price_level,vibe,rating,tags,description
+1,Tacovore,food,$$,lively,4.6,"tacos,local,casual,outdoor","Tacos & margaritas with a fun vibe and outdoor seating."
+2,Vero Espresso,coffee,$,chill,4.5,"coffee,study,local","Cozy local coffee shop great for studying and catching up."
+3,Spencer Butte,nature,$,scenic,4.8,"hike,views,outdoors","Short steep hike with panoramic views of Eugene."
+4,Saturday Market,activity,$,artsy,4.7,"market,local,art,food","Weekly open-air market with crafts, food carts, and music."
+5,Provisions Market Hall,food,$$,chill,4.5,"bakery,brunch,local","Bakery and deli inside the 5th Street Market."
+6,Level Up Arcade,activity,$$,lively,4.4,"arcade,bar,games","Retro arcade bar with pinball, consoles, and snacks."
+7,Wandering Goat,coffee,$,artsy,4.6,"coffee,roastery,local","Roastery with a minimalist, artsy vibe and strong espresso."
+8,Skinner Butte Park,nature,$,scenic,4.6,"walk,river,picnic","Riverside paths, picnic lawns, and views of downtown."
+9,Excelsior Inn,food,$$$,date-night,4.5,"italian,date-night,local","Upscale Italian spot in a historic inn."
+10,The Bier Stein,bar,$$,social,4.5,"beer,craft,casual","Huge craft beer list, casual pub food, lively atmosphere."
