@@ -24,3 +24,9 @@ Future Improvements
 - Deploy a live version of the app using Streamlit Cloud.
 
 - Integrate an AI recommendation feature to personalize suggestions based on user input.
+
+My milestone goals for the Visit Eugene project have been met. I successfully set up the project environment, created a working Streamlit app connected to a local SQLite database, and implemented scripts to seed data and run the application. The app currently displays sample places to eat and visit in Eugene.
+
+I am on track to complete my project goals by the end of the term. The main setup and functionality are complete, and the next phase will focus on refining the interface, adding filtering features, and preparing for possible deployment.
+
+The primary challenges involved configuring Streamlit, managing the virtual environment, and connecting GitHub for version control. These issues were resolved through testing and documentation, and no major blockers remain at this stage.
