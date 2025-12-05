@@ -1,30 +1,69 @@
-Overview
+**Visit Eugene - Personalized Local Guide**
+_A Streamlit web app for exploring food, activities, and hidden gems in Eugene, Oregon_
 
-Visit Eugene is a data-driven web application developed in Python using Streamlit and SQLite.
-The goal of this project is to provide users with a simple and visually engaging way to explore things to do, places to eat, and local points of interest in Eugene.
+**Overview**
 
-This project is part of the CS 407 Seminar at the University of Oregon and is designed to strengthen technical and product development skills relevant to software product management and data analytics.
+Visit Eugene is a data-driven web application built with Python, Streamlit, and SQLite.
+The goal is to give students, locals, and visitors an easy way to explore the best places to eat, study, hang out, and enjoy Eugene’s unique culture.
 
-Features
+This project was created for CS 407 Seminar (Winter 2025) at the University of Oregon and serves as a hands-on introduction to software product development, database design, and interactive web apps.
 
-- Displays local places and activities from a connected SQLite database.
+**Features**
 
-- Clean, user-friendly Streamlit interface.
+- _Explore Eugene_: Browse from restaurants, cafes, parks, hikes, bars, and more
+   - Places are stored in a structured SQLite database and loaded into the web application with Pandas. 
+- _Filter & Recommend_: Filter by interests (e.g., Food, Coffee, Nature, Nightlife), budget ($, $$, $$$), and vibe (chill, lively, scenic, etc.).
+   - "Top Picks" section ranks places by rating.
+   - Query results update automatically based on user selections.
+- _Vibe Quiz_:
+   - What kind of energy are you looking for?
+   - What is your budget?
+   - What do you want to do?
+   - Quiz answers are mapped to internal filters and used to generate a tailored set of spot so that users don't need to adjust manual filters.
 
-- Database seeding and management via Python scripts.
+**Project Structure**
 
-- Easily expandable to include AI-powered recommendations or filtering by user interests.
+app/main.py              # Main Streamlit interface
 
-Future Improvements
+data/eugene.db           # SQLite database
 
-- Add filtering functionality by category or interest (e.g., dining, entertainment, nature).
+data/places_seed.csv     # Seed data
 
-- Improve UI design with custom icons, headers, and layout styling.
+scripts/seed_db.py       # Reseeds the database
 
-- Deploy a live version of the app using Streamlit Cloud.
+utils.py                 # Filtering & loading helpers
 
-- Integrate an AI recommendation feature to personalize suggestions based on user input.
+requirements.txt         # Dependencies
 
-I am on track to complete my project goals by the end of the term. The main setup and functionality are complete, and the next phase will focus on refining the interface, adding filtering features, and preparing for possible deployment.
+**Getting Started**
 
-The primary challenges involved configuring Streamlit, managing the virtual environment, and connecting GitHub for version control. These issues were resolved through testing and documentation, and no major blockers remain at this stage.
+1. Clone the repo:
+   - git clone https://github.com/YOUR-USERNAME/visit-eugene.git
+   - cd visit-eugene
+2. Install dependencies:
+   - pip install -r requirements.txt
+3. Seed the database:
+   - python scripts/seed_db.py
+4. Run the app
+   - streamlit run app/main.py
+
+**Technologies Used**
+- Python 3
+- CSS
+- HTML
+- Streamlit -> interactive web UI
+- SQLite -> local databse for places and metadata
+- Pandas -> data loading and filtering
+- Plotly -> charts for insights
+
+**Future Improvements**
+- Add more places and richer tags (time of day, study-friendly, size of group)
+- Improve graphics and color scheme + add photos for each location
+- Refine itinerary logic
+- Add simple username + password so users can save favorite spots/itineraries
+
+**Brynn Kirkham**
+
+_University of Oregon_
+
+CS 407 Seminar - Fall 2025
